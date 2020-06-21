@@ -1,0 +1,22 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" routerLink="/home">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li ngbDropdown  class="nav-item dropdown">
+          <a ngbDropdownToggle class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown link
+          </a>
+          <div ngbDropdownMenu class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" routerLink="/registration">Registration</a>
+            <a class="dropdown-item" routerLink="/user/login">Login</a>
+            <a class="dropdown-item" routerLink="/adminpanel">Admin Panel</a>
+            <a class="dropdown-item" routerLink="/userpanel">User Panel</a>
+            <a class="dropdown-item" (click)="onLogout()">Logout</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>

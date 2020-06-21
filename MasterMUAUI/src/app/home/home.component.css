@@ -1,0 +1,54 @@
+.border-bottom{
+  border-bottom: 1px solid white;
+}
+
+.slider-hight {
+    height: 900px;
+  }
+.bg-s-one{
+  background-color: #20232c;
+  color: #ffffff;
+}
+.s-one-h2{
+  font-size: 30px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid #d2d3d4;
+}
+.s-one-p{
+  color: #7A89AB;
+  padding-bottom: 30px;
+}
+.s-one-point-icon{
+  color: #FF3233;
+}
+.s-one-point-title{
+  color: #FF3233;
+  font-size: 18px;
+}
+.s-one-point-text{
+  margin-left: 62px;
+}
+.s-one-point-box{
+  padding-bottom: 30px;
+}
+.s-one-button{
+  padding-bottom: 48px;
+}
+.bg-s-two{
+  background-color: #20232c;
+  color: #ffffff;
+}
+.s-two-button{
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+.bg-s-three{
+  background-color: #20232c;
+  color: #ffffff;
+}
+.bg-s-four{
+  background-color: #ffffff;
+  color: #20232c;
+}
